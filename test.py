@@ -1,2 +1,6 @@
 print("hello world",end="")
-print ("2nd hello modified by Mrinmoy")
+def sum_numbers(a, b):
+    return a + b
+
+result = sum_numbers(5, 7)
+print(result)  
